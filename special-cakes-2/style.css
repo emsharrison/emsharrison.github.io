@@ -1,0 +1,120 @@
+
+body {
+	width: 90%;
+	max-width: 1200px;
+	margin:  60px auto;
+	font-family:  "Arial", sans-serif;
+	line-height: 1.4;
+	olor: #0C243C;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	text-align: right;
+	margin-top: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+a {
+	padding: 5px;
+	text-decoration: none;
+	color: #E94D40;
+	transition: color .3s;
+}
+
+a:hover {
+	color:  #0C243C;
+}
+
+h1, h2, h3 {
+	color: #0C243C;
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;	
+	font-size: 14px;
+}
+
+p {
+	max-width: 600px;
+}
+
+
+.logo {
+	width: 300px;
+}
+
+.small-text {
+	font-size: 11px;
+}
+
+/* Image Grid 
+--------------------*/
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap:  20px;
+}
+
+.image-grid figure {
+	margin: 0;
+}
+
+@media only screen and (min-width: 640px) {
+	.image-grid {
+	    grid-template-columns: repeat(3,1fr);
+	}
+}
+
+
+/* Table
+--------------------*/
+
+
+
+
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background: #eee;
+}
+
+td, th {
+  border:1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* Form
+--------------------
+
+form label {
+	width: 100px;
+	display: inline-block;
+}
+
+form input {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
